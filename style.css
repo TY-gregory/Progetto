@@ -1,0 +1,727 @@
+*{padding:0;
+margin: 0;
+font-family:serif;
+box-sizing:border-box;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 450px) {
+
+.testata{height:100%;
+width: 100%;
+background-image: url(images/imgportfolio.jpeg);
+background-size:cover;
+background-position:center;
+position: relative;
+
+}
+
+.barrame{width: 100%;
+padding: 0px 30px;
+background-color:#000000;
+filter: alpha(opacity=50);
+opacity:0.5;
+border-radius: 20px;
+display: flex;
+position: relative;
+
+}
+
+
+.testata, .barrame, .menu li, .menu a, .submenu { float: none;
+  display:block;
+  width: 100%;
+
+}
+
+
+.menu li {
+display:inline-flex;
+text-transform: uppercase;
+font-size: 18px;
+position: relative;
+top: 9px;
+
+}
+
+.menu a {display: flex;
+padding: 15px 35px;
+text-decoration: none;
+color: #DC143C;
+transition: .3s;
+position: relative;
+}
+
+.menu a:hover {color:#7fff00;
+transition: .1s;}
+
+
+.submenu{position: relative;
+top: 5px;
+left: 30px;
+border: 1px solid  #000000;
+border-bottom:none;
+visibility: hidden;
+opacity:0 ;
+}
+.menu .has-children:hover .submenu {
+transition: 1s;
+visibility:visible;
+top: 76;
+opacity: 5;}
+
+.submenu li {width: 100%;
+font-size: 9px;
+border-bottom:1px solid #000000;
+
+}
+.submenu a:hover {background: #ADFF2F;
+color: #000000;}
+
+
+h1 {color: #DC143C;
+font-size: 55px;
+margin: 40px 20px 20px;}
+h3 {color: #000000;
+font-size: 25px;
+margin: 40px 20px 20px}
+h4 {color: #000000;
+font-size: 25px;
+margin: 40px 20px 20px;
+}
+
+.scatola{display:flex;
+justify-content: center;
+align-items:center;
+min-height: 500px;
+position: relative;
+
+}
+.logo1{height: 50px;
+width: 50px;
+display:flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: 20px;
+left: 5px;}
+.logo2{height: 50px;
+width: 50px;
+display:flex;
+align-items: center;
+justify-content:center;
+position: relative;
+top: 5px;
+left: 5px;}
+.carta{height: 260px;
+width: 230px;
+padding: 5px 30px;
+background-color:#A9A9A9;
+filter: alpha(opacity=50);
+opacity:0.5;
+border-radius: 20px;
+margin:35px;
+position:relative;
+overflow:hidden;
+}
+.carta2{height: 260px;
+width: 230px;
+padding:5px 20px;
+background-color:#A9A9A9;
+filter: alpha(opacity=50);
+opacity:0.5;
+border-radius: 20px;
+margin:35px;
+position:relative;
+overflow: hidden;
+
+}
+
+.linked{height: 40px;
+width: 40px;
+position:relative;
+top: 0px;
+left:5px;
+
+}
+.github{height: 40px;
+width: 40px;
+position: relative;
+top: 0px;
+left:5px;
+}
+
+/*inizio pagina contatto*/
+.primapag{height:100%;
+width: 100%;
+background-image: url(images/imgportfolio2.jpeg);
+background-size:cover;
+background-position:center;
+position: relative;
+display:flex;
+}
+.tabmail{height: 1000px;
+width: 1200px;
+padding: 20px 30px;
+background-color:#000000;
+filter: alpha(opacity=50);
+opacity:0.8;
+border-radius: 20px;
+margin:50px;
+
+position:relative;
+top: 10px;
+overflow: hidden;
+}
+
+.titoletto{color: #DC143C;
+padding: 1px 0px ;
+display: flex;
+align-items: center;
+text-decoration: none;
+font-weight: bold;
+font-size: 22px;}
+
+.tabmail form {width: 380px;max-width: 100%;
+position: relative;
+top: 30px;
+left: 15px;
+}
+.tabmail form input:first-child{display: inline-block;
+width: 100%;
+padding: 15px 125px 15px 15px;
+border-radius: 20px;}
+.tabmail form input:last-child{
+display: inline-block;
+padding:10px 10px;
+position:relative;
+bottom: 45px;
+left: 65%;
+background-color:#DC143C;
+border-radius: 18px;}
+.ritorno{color: #DC143C;
+display: flex;
+position: relative;
+top: 60px;
+left: 1px;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 22px;}
+/*inizio pagina presentazione*/
+.pres{color:#DC143C;
+display: flex;
+position: relative;
+bottom: 5px;
+left: 5px;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 26px; }
+
+.intro{color: #DC143C;
+position: relative;
+top: 50px;
+display: flex;
+text-decoration:underline;
+font-weight: bold;
+font-size: 22px;}
+.ritorno2{color: #DC143C;
+display: flex;
+position: relative;
+top: 60px;
+left: :50%;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 22px;}
+.homelogo{height: 50px;
+width:50px;
+display:flex;
+align-items: center;
+justify-content: center;
+position:relative;
+bottom:1px;
+right:5px;
+overflow: hidden;
+filter:alpha;
+opacity: 0.5;}
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 450px) and (max-width: 1087px) {.testata{height:100%;
+width: 100%;
+background-image: url(images/imgportfolio.jpeg);
+background-size:cover;
+background-position:center;
+position: relative;
+
+}
+
+.barrame{width: 100%;
+padding: 0px 30px;
+background-color:#000000;
+filter: alpha(opacity=50);
+opacity:0.5;
+border-radius: 20px;
+display: flex;
+position: relative;
+
+}
+
+
+.testata, .barrame, .menu li, .menu a, .submenu { float: none;
+  display:block;
+  width: 100%;
+
+}
+
+
+.menu li {
+display:inline-flex;
+text-transform: uppercase;
+font-size: 18px;
+position: relative;
+top: 9px;
+
+}
+
+.menu a {display: flex;
+padding: 15px 35px;
+text-decoration: none;
+color: #DC143C;
+transition: .3s;
+position: relative;
+}
+
+.menu a:hover {color:#7fff00;
+transition: .1s;}
+
+
+.submenu{position: relative;
+top: 5px;
+left: 30px;
+border: 1px solid  #000000;
+border-bottom:none;
+visibility: hidden;
+opacity:0 ;
+}
+.menu .has-children:hover .submenu {
+transition: 1s;
+visibility:visible;
+top: 76;
+opacity: 5;}
+
+.submenu li {width: 100%;
+font-size: 9px;
+border-bottom:1px solid #000000;
+
+}
+.submenu a:hover {background: #ADFF2F;
+color: #000000;}
+
+
+h1 {color: #DC143C;
+font-size: 55px;
+margin: 40px 20px 20px;}
+h3 {color: #000000;
+font-size: 25px;
+margin: 40px 20px 20px}
+h4 {color: #000000;
+font-size: 25px;
+margin: 40px 20px 20px;
+}
+
+.scatola{display:flex;
+justify-content: center;
+align-items:center;
+min-height: 500px;
+position: relative;
+
+}
+.logo1{height: 50px;
+width: 50px;
+display:flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: 20px;
+left: 5px;}
+.logo2{height: 50px;
+width: 50px;
+display:flex;
+align-items: center;
+justify-content:center;
+position: relative;
+top: 5px;
+left: 5px;}
+.carta{height: 260px;
+width: 230px;
+padding: 5px 30px;
+background-color:#A9A9A9;
+filter: alpha(opacity=50);
+opacity:0.5;
+border-radius: 20px;
+margin:35px;
+position:relative;
+overflow:hidden;
+}
+.carta2{height: 260px;
+width: 230px;
+padding:5px 20px;
+background-color:#A9A9A9;
+filter: alpha(opacity=50);
+opacity:0.5;
+border-radius: 20px;
+margin:35px;
+position:relative;
+overflow: hidden;
+
+}
+
+.linked{height: 40px;
+width: 40px;
+position:relative;
+top: 0px;
+left:5px;
+
+}
+.github{height: 40px;
+width: 40px;
+position: relative;
+top: 0px;
+left:5px;
+}
+
+/*inizio pagina contatto*/
+.primapag{height:100%;
+width: 100%;
+background-image: url(images/imgportfolio2.jpeg);
+background-size:cover;
+background-position:center;
+position: relative;
+display:flex;
+}
+.tabmail{height: 1000px;
+width: 1200px;
+padding: 20px 30px;
+background-color:#000000;
+filter: alpha(opacity=50);
+opacity:0.8;
+border-radius: 20px;
+margin:50px;
+
+position:relative;
+top: 10px;
+overflow: hidden;
+}
+
+.titoletto{color: #DC143C;
+padding: 1px 0px ;
+display: flex;
+align-items: center;
+text-decoration: none;
+font-weight: bold;
+font-size: 22px;}
+
+.tabmail form {width: 380px;max-width: 100%;
+position: relative;
+top: 30px;
+left: 15px;
+}
+.tabmail form input:first-child{display: inline-block;
+width: 100%;
+padding: 15px 125px 15px 15px;
+border-radius: 20px;}
+.tabmail form input:last-child{
+display: inline-block;
+padding:10px 30px;
+position:relative;
+bottom: 45px;
+left: 70%;
+background-color:#DC143C;
+border-radius: 28px;}
+.ritorno{color: #DC143C;
+display: flex;
+position: relative;
+top: 60px;
+left: 1px;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 22px;}
+/*inizio pagina presentazione*/
+.pres{color:#DC143C;
+display: flex;
+position: relative;
+bottom: 5px;
+left: 5px;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 26px; }
+
+.intro{color: #DC143C;
+position: relative;
+top: 50px;
+display: flex;
+text-decoration:underline;
+font-weight: bold;
+font-size: 22px;}
+.ritorno2{color: #DC143C;
+display: flex;
+position: relative;
+top: 60px;
+left: :50%;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 22px;}
+.homelogo{height: 50px;
+width:50px;
+display:flex;
+align-items: center;
+justify-content: center;
+position:relative;
+bottom:1px;
+right:5px;
+overflow: hidden;
+filter:alpha;
+opacity: 0.5;}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 1087px) {
+
+
+.testata{height:100%;
+width: 100%;
+background-image: url(images/imgportfolio.jpeg);
+background-size:cover;
+background-position:center;
+position: relative;
+
+}
+
+.barrame{width: 100%;
+padding: 0px 30px;
+background-color:#000000;
+filter: alpha(opacity=50);
+opacity:0.5;
+border-radius: 20px;
+display: flex;
+position: relative;
+
+}
+
+.menu {list-style: none;
+
+}
+.menu li {
+display: inline-block;
+text-transform: uppercase;
+font-size: 18px;
+position: relative;
+top: 3px;
+
+}
+
+.menu a {display: flex;
+padding: 20px 60px;
+text-decoration: none;
+color: #DC143C;
+transition: .3s;}
+
+.menu a:hover {color:#7fff00;
+transition: .1s;}
+
+
+.submenu{position: absolute;
+top: 50px;
+left: 0px;
+border: 1px solid  #000000;
+border-bottom: none;
+visibility: hidden;
+opacity:0 ;
+}
+.menu .has-children:hover .submenu {
+transition: 1s;
+visibility:visible;
+top: 66;
+opacity: 5;}
+
+.submenu li {width: 100%;
+font-size: 12px;
+border-bottom:1px solid #000000;
+
+}
+.submenu a:hover {background: #ADFF2F;
+color: #000000;}
+
+
+h1 {color: #DC143C;
+font-size: 55px;
+margin: 40px 20px 20px;}
+h3 {color: #000000;
+font-size: 25px;
+margin: 40px 20px 20px}
+h4 {color: #000000;
+font-size: 25px;
+margin: 50px 20px 20px;
+}
+
+.scatola{display:flex;
+justify-content:space-around;
+align-items:center;
+min-height: 500px;
+position: relative;
+
+}
+.logo1{height: 100px;
+width: 100px;
+display:flex;
+align-items: center;
+justify-content: center;
+position: relative;
+top: 55px;
+left: 35px;}
+.logo2{height: 100px;
+width: 100px;
+display:flex;
+align-items: center;
+justify-content:center;
+position: relative;
+top: 40px;
+left: 35px;}
+.carta{height: 260px;
+width: 230px;
+padding: 5px 30px;
+background-color:#A9A9A9;
+filter: alpha(opacity=50);
+opacity:0.5;
+border-radius: 20px;
+margin:35px;
+position:relative;
+overflow:hidden;
+}
+.carta2{height: 260px;
+width: 230px;
+padding:5px 20px;
+background-color:#A9A9A9;
+filter: alpha(opacity=50);
+opacity:0.5;
+border-radius: 20px;
+margin:35px;
+position:relative;
+overflow: hidden;
+
+}
+
+.linked{height: 40px;
+width: 40px;
+position:relative;
+top: 3px;
+left:100px;
+
+}
+.github{height: 40px;
+width: 40px;
+position: relative;
+top: 3px;
+left:110px;
+}
+
+/*inizio pagina contatto*/
+.primapag{height:100%;
+width: 100%;
+background-image: url(images/imgportfolio2.jpeg);
+background-size:cover;
+background-position:center;
+position: relative;
+display:flex;
+}
+.tabmail{height: 1000px;
+width: 1200px;
+padding: 20px 30px;
+background-color:#000000;
+filter: alpha(opacity=50);
+opacity:0.8;
+border-radius: 20px;
+margin:50px;
+
+position:relative;
+top: 10px;
+overflow: hidden;
+}
+
+.titoletto{color: #DC143C;
+padding: 1px 0px ;
+display: flex;
+align-items: center;
+text-decoration: none;
+font-weight: bold;
+font-size: 22px;}
+
+.tabmail form {width: 380px;max-width: 100%;
+position: relative;
+top: 30px;
+left: 15px;
+}
+.tabmail form input:first-child{display: inline-block;
+width: 100%;
+padding: 15px 125px 15px 15px;
+border-radius: 20px;}
+.tabmail form input:last-child{
+display: inline-block;
+padding:10px 30px;
+position:relative;
+bottom: 45px;
+left: 70%;
+background-color:#DC143C;
+border-radius: 28px;}
+.ritorno{color: #DC143C;
+display: flex;
+position: relative;
+top: 60px;
+left: 1px;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 22px;}
+/*inizio pagina presentazione*/
+.pres{color:#DC143C;
+  display: flex;
+  position: relative;
+  bottom: 5px;
+  left: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 26px; }
+
+.intro{color: #DC143C;
+position: relative;
+top: 50px;
+display: flex;
+text-decoration:underline;
+font-weight: bold;
+font-size: 22px;}
+.ritorno2{color: #DC143C;
+display: flex;
+position: relative;
+top: 60px;
+left: :50%;
+text-decoration: none;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 22px;}
+.homelogo{height: 50px;
+width:50px;
+display:flex;
+align-items: center;
+justify-content: center;
+position:relative;
+bottom:1px;
+right:5px;
+overflow: hidden;
+filter:alpha;
+opacity: 0.5;}
